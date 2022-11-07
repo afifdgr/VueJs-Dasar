@@ -1,37 +1,15 @@
 <template>
   <div class="logos-wrapper">
-    <h2>Find Best Logo</h2>
+    <h2 class="title-header">Find Best Logo</h2>
 
     <div class="item-logos">
-      <img src="" alt="" />
+      <img class="logo" alt="Forest logo" src="../assets/forest.png" />
     </div>
-
     <div class="item-logos">
-      <img src="" alt="" />
+      <img class="logo" alt="CP logo" src="../assets/crystal_palace.png" />
     </div>
-
     <div class="item-logos">
-      <img src="" alt="" />
-    </div>
-
-    <div class="item-logos">
-      <img src="" alt="" />
-    </div>
-
-    <div class="item-logos">
-      <img src="" alt="" />
-    </div>
-
-    <div class="item-logos">
-      <img src="" alt="" />
-    </div>
-
-    <div class="item-logos">
-      <img src="" alt="" />
-    </div>
-
-    <div class="item-logos">
-      <img src="" alt="" />
+      <img class="logo" alt="AV logo" src="../assets/aston_villa.png" />
     </div>
   </div>
 </template>
@@ -43,6 +21,9 @@ export default {
 </script>
 
 <style scoped>
+.title-header {
+  margin-bottom: 80px;
+}
 .logos-wrapper {
   width: 70%;
   height: hidden;
@@ -55,6 +36,9 @@ export default {
   margin-bottom: 20px;
   width: 150px;
   height: 150px;
-  background-color: burlywood;
+}
+.item-logos .logo {
+  width: 150px;
+  height: 150px;
 }
 </style>
